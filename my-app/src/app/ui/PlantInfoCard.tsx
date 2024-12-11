@@ -25,7 +25,7 @@ function PlantCard() {
     <div className="flex flex-col gap-2 p-4">
         <strong>Plant Name</strong>
         { Object.entries(tmp_plant).map(([key, value]) => (
-            <p>{`${key}: ${value}`}</p>
+            <p key={key}>{`${key}: ${value}`}</p>
         ))}
     </div>
   )

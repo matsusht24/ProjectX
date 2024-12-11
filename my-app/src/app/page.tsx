@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaRegUser } from "react-icons/fa";
-import PlantCard from "./ui/PlantCard";
+import PlantCard from "./ui/PlantInfoCard";
+import PlantGrid from "./ui/PlantGrid";
 
 interface user {
   name: string;
@@ -15,9 +16,9 @@ const user = {
 const plants = [{status: "Good", number:1}, {status: "Watering", number:2}, {status: "Check", number:3}]
 export default function Home() {
   return (
-    <div className="fixed bg-black w-screen h-screen">
-      <div className="flex flex-row m-5 h-full">
-        <div className="flex-col bg-white p-3 w-1/4 ">
+    <div className="fixed bg-green-background w-screen h-screen">
+      <div className="flex flex-row m-5 bg-beige-foreground max-h-full  rounded-md shadow-lg  ">
+        <div className="  p-3 w-1/4 m-1 ">
           <div className="flex justify-start">
             <FaRegUser />
             <div className="flex-col">
@@ -38,13 +39,14 @@ export default function Home() {
             
           </div>
         </div>
-        <div className="bg-white p-10 w-1/2 m-1 ">
+        <div className=" p-10 w-1/2 m-1 shadow-lg">
             <strong>Garden Grid</strong>
-            <div className="gardenGrid">
+            <div className="h-full">
+              <PlantGrid />
 
             </div>
         </div>
-        <div className="bg-white p-10 w-1/4 m-1 ">
+        <div className=" p-10 w-1/4 m-1 ">
          <PlantCard />
         </div>
       </div>

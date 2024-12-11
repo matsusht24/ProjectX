@@ -1,0 +1,10 @@
+/* table.css */
+
+* {
+    margin: 0;
+}
+
+tr {
+    border: 1px solid black;
+    border-radius: 10px;
+}
