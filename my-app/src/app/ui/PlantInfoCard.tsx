@@ -20,6 +20,7 @@ const tmp_plant: plantType = {
     next_watering: new Date(2024, 11, 8),
     edible: true,
 }
+const edit: boolean = true;
 function PlantCard() {
   return (
     <div className="flex flex-col gap-2 p-4">
@@ -27,6 +28,10 @@ function PlantCard() {
         { Object.entries(tmp_plant).map(([key, value]) => (
             <p key={key}>{`${key}: ${value}`}</p>
         ))}
+      <div className="items-end">
+        <button type="button">{edit ?? "Edit" : "Confirm"}</button> 
+        
+      </div>
     </div>
   )
 }
