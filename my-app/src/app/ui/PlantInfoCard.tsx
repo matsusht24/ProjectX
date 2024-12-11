@@ -29,7 +29,7 @@ function PlantCard() {
             <p key={key}>{`${key}: ${value}`}</p>
         ))}
       <div className="items-end">
-        <button type="button">{edit ?? "Edit" : "Confirm"}</button> 
+        <button type="button">{edit ? "Edit" : "Confirm"}</button> 
         
       </div>
     </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { FaRegUser } from "react-icons/fa";
 import PlantCard from "./ui/PlantInfoCard";
 import PlantGrid from "./ui/PlantGrid";
