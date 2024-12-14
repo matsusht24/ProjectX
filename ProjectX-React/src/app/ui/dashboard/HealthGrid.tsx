@@ -2,7 +2,11 @@ import React from 'react'
 
 function HealthGrid() {
   return (
-    <div>HealthGrid</div>
+    <div className='wrapper'>
+       
+       
+      
+    </div>
   )
 }
 

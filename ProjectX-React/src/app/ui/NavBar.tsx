@@ -39,10 +39,10 @@ function NavBar() {
         />
       </a>
       <nav>
-        <ul className='flex gap-8 h-full w-auto items-center'>
+        <ul className='flex gap-8 h-full w-auto items-center '>
         {Object.entries(links).map(([loc, nav_item]) => (
             
-            <li key={loc} className='font-bold w-auto' >
+            <li key={loc} className='font-bold w-auto p-3 rounded-full shadow-neo-dark  hover:shadow-glow' >
                 
                 <Link href={nav_item.link} className='text-xl'>{nav_item.name}</Link>
             </li>
