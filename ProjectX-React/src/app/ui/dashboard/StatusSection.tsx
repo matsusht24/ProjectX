@@ -1,9 +1,13 @@
 import React from "react";
 import HealthGrid from "./HealthGrid";
+
+
 type status = {
-  color: "Green" | "Red" | "Yellow";
+  color: statusColor;
   desc: string;
 };
+
+export type statusColor = "Green" | "Red" | "Yellow";
 
 const status_updates: status[] = [
   { color: "Red", desc: "X plant is dying" },

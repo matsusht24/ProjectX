@@ -10,7 +10,6 @@ export default {
     extend: {
       boxShadow: {  
         'neo-light': '-4px -4px 10px rgba(255, 255, 255, 0.7)', // Highlight
-        
         'neo-dark': '4px 4px 10px rgba(0, 0, 0, 0.5)',          // Shadow
         'glow': '0 0 10px rgba(0, 255, 0, 0.6)',         // Green glow effect
         'neo-inset': 'inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.7)', // Pressed effect
