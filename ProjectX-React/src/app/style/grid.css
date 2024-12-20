@@ -1,0 +1,7 @@
+.grid {
+    @apply w-4 h-4 rounded-full;
+}
+
+.green_grid {
+    @apply bg-green-healthy shadow-green-grid;
+}

@@ -7,11 +7,11 @@ type status = {
   desc: string;
 };
 
-export type statusColor = "Green" | "Red" | "Yellow";
+export type statusColor = "green" | "red" | "yellow";
 
 const status_updates: status[] = [
-  { color: "Red", desc: "X plant is dying" },
-  { color: "Yellow", desc: "Y plant needs help" },
+  { color: "red", desc: "X plant is dying" },
+  { color: "yellow", desc: "Y plant needs help" },
 ];
 
 function StatusSection() {

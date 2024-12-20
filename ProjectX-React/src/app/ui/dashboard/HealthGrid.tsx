@@ -1,33 +1,20 @@
 import React from 'react'
 import { statusColor } from './StatusSection'
+import '@/app/style/grid.css'
 
 const status: [statusColor[]] = 
-[['Green', 'Red', 'Green' ], ['Green', 'Green', 'Green' ], ['Green', 'Green', 'Yellow' ], ['Green', 'Red', 'Green' ]]
-
-function AssignColor(color: statusColor) {
-  switch(color) {
-    case 'Green':
-      return <div role='button' className="bg-green-100 w-5 h-5 rounded-full"></div>
-    case 'Red':
-      return <div role='button' className="bg-red-100 w-5 h-5 rounded-full"></div>
-    case 'Yellow':
-      return <div role='button' className="bg-yellow-100 w-5 h-5 rounded-full"></div>
-    default:
-      return <div key={color} role='button' className="bg-gray-50 w-5 h-5 rounded-full"></div>
-
-  }
+[['green', 'red', 'green' ], ['green', 'green', 'green' ], ['green', 'green', 'yellow' ], ['green', 'red', 'green' ]]
 
 
-}
 function HealthGrid() {
 
   return (
-    <div className='wrapper'>
+    <div className='w-full p-5'>
        {status.map((row) => (
-        <div className="flex flex-row justify-between">
+        <div className="flex gap-2 p-1">
           {
             row.map((state) => (
-              AssignColor(state)
+              <div key={state} role='button' className={`grid ${state}_grid w-8 h-8 rounded-full`}></div>
 
             ))
           }

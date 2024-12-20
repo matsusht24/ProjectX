@@ -11,6 +11,7 @@ export default {
       boxShadow: {  
         'neo-light': '-4px -4px 10px rgba(255, 255, 255, 0.7)', // Highlight
         'neo-dark': '4px 4px 10px rgba(0, 0, 0, 0.5)',          // Shadow
+        'green-grid': '11px 11px 22px #02935e, -11px 11px 22px #02dd8c',
         'glow': '0 0 10px rgba(0, 255, 0, 0.6)',         // Green glow effect
         'neo-inset': 'inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.7)', // Pressed effect
 
@@ -20,6 +21,7 @@ export default {
         foreground: "var(--foreground)",
         green: {
           background: "#87af7d",
+          healthy: "#02B875"
         },  
         yellow: {
           foreground: "#FFEB3B", //sunny yellow
