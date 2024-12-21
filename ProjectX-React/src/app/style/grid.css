@@ -2,7 +2,7 @@
 
 
 .grid {
-    @apply w-10 h-10 rounded-full shadow-back-grid;
+    @apply w-12 h-12 rounded-full ;
 }
 
 .green_grid {
