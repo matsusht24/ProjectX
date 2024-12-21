@@ -1,7 +1,34 @@
+/* grid.css */
+
+
 .grid {
-    @apply w-4 h-4 rounded-full;
+    @apply w-10 h-10 rounded-full shadow-back-grid;
 }
 
 .green_grid {
-    @apply bg-green-healthy shadow-green-grid;
+    @apply bg-healthy ;
+}
+
+.yellow_grid {
+    @apply bg-ok;
+}
+
+.red_grid {
+    @apply bg-bad
+}
+
+.red_status {
+    @apply bg-bad 
+}
+
+.red_dot {
+    @apply bg-red-800 shadow-inner
+}
+
+.yellow_status {
+    @apply bg-ok
+}
+
+.yellow_dot {
+    @apply bg-yellow-600 shadow-inner 
 }

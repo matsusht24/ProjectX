@@ -11,7 +11,7 @@ function Dashboard() {
         <div className="navBar">
           <NavBar />
         </div>
-        <div className="items-center">
+        <div className="flex justify-center ">
           <StatusSection />
         </div>
         <div className="flex flex-row">
