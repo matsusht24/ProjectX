@@ -6,7 +6,7 @@ import WaterInfo from "../ui/dashboard/analytics/WaterInfo";
 import StatusSection from "../ui/dashboard/StatusSection";
 function Dashboard() {
   return (
-    <div className="bg-white-200 m-4 p-4 rounded-md shadow-neo-dark">
+    <div className="bg-main m-2 p-1 rounded-md shadow-neo-dark">
       <div className="flex flex-col">
         <div className="navBar">
           <NavBar />
@@ -14,7 +14,7 @@ function Dashboard() {
         <div className="flex justify-center ">
           <StatusSection />
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row justify-center">
           <Calender />
           <div className="flex-col">
             <SoilInfo />

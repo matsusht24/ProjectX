@@ -39,6 +39,7 @@ export default {
         healthy: "linear-gradient(145deg, #02c57d, #02a669)", 
         ok: "linear-gradient(145deg, #fff849, #d6d13d)",
         bad: "linear-gradient(145deg, #f02c2c, #ca2525)",
+        main: "linear-gradient(135deg, #E3F9E5, #A4D4AE, #B8E4F9)",
       },
     },
   },

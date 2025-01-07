@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import ThemeToggleButton from "./ThemeToggleButton"
 import Link from "next/link";
 
 type NavItems = {
@@ -51,6 +52,9 @@ function NavBar() {
         
         
     </nav>
+    <div>
+      <ThemeToggleButton />
+    </div>
     </div> 
   );
 }
