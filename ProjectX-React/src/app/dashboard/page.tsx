@@ -6,7 +6,7 @@ import WaterInfo from "../ui/dashboard/analytics/WaterInfo";
 import StatusSection from "../ui/dashboard/StatusSection";
 function Dashboard() {
   return (
-    <div className="m-2 p-1 rounded-md shadow-neo-dark">
+    <div className="card m-2 p-1 rounded-md ">
       <div className="flex flex-col">
         <div className="navBar">
           <NavBar />

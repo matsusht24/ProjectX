@@ -9,18 +9,21 @@ html {
 html.dark {
   --background: #333333;
   --foreground: #ededed;
+  --shadow: 11px 11px 22px #e6e6e6, -11px 11px 22px #ffffff;
 }
 
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --shadow: 11px 11px 22px #2b2b2b, -11px 11px 22px #3b3b3b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
   }
 }
 
@@ -31,6 +34,3 @@ body {
 }
 
 
-.btn.dark {
-  @apply shadow-neo-dark
-}

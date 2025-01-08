@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       boxShadow: { 
-        'neo-dark': '11px 11px 22px #d5d5d5, -11px 11px 22px #ffffff',          // Shadow
+        'neo-dark': '11px 11px 22px #2b2b2b, -11px 11px 22px #3b3b3b',          // Shadow
+        'neo-light': '11px 11px 22px #e6e6e6, -11px 11px 22px #ffffff',          // Light shadow
         'back-grid': 'inset 20px 20px 60px #138b3f, inset -20px -20px 60px #19bb55',
         'inset-grid': 'inset 11px 11px 22px #e6e6e6, inset -11px 11px 22px #ffffff',
         'glow': '0 0 10px rgba(0, 255, 0, 0.6)',         // Green glow effect
