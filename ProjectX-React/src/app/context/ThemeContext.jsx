@@ -23,6 +23,15 @@ export const ThemeProvider = ({ children }) => {
     }
   }, []);
 
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
+  }, [theme]);
+
   // Toggle between light and dark theme
   const toggleTheme = () => {
     setTheme((prevTheme) => {

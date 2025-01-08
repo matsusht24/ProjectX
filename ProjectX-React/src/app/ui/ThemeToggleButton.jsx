@@ -1,5 +1,5 @@
-
-// ThemeToggleButton.js
+"use client"
+// ThemeToggleButton.jsx
 import React from "react";
 import { useTheme } from "@/app/context/ThemeContext";
 
