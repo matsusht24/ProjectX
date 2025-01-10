@@ -21,7 +21,7 @@ const plants = [
 export default function Home() {
   return (
     <div className="fixed  w-screen h-screen">
-      <div className=" m-5 ">
+      <div className="flex flex-row m-5 ">
         <NavBar />
         <div className="flex flex-row  bg-beige-foreground max-h-full  rounded-md shadow-lg  ">
           <div className="  p-3 w-1/4 m-1 ">

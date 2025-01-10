@@ -28,9 +28,9 @@ const links: NavItems[] = [
 ];
 function NavBar() {
   return (
-    <div className="relative w-full h-fit p-4">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
+    <div className="relative w-fit h-full p-4">
+      <div className="flex flex-col items-center justify-between">
+        <div className="flex flex-col items-center gap-4">
           <a href="/">
             <Image
               alt="Logo"
@@ -42,11 +42,11 @@ function NavBar() {
             />
           </a>
           <nav>
-            <ul className="flex gap-4">
+            <ul className="flex flex-col gap-4">
               {Object.entries(links).map(([loc, nav_item]) => (
                 <li
                   key={loc}
-                  className="font-bold w-auto p-3 rounded-full shadow-neo-dark  hover:shadow-glow"
+                  className="font-bold w-auto p-3 hover:underline hover:text-green-background"
                 >
                   <Link href={nav_item.link} className="text-xl">
                     {nav_item.name}
