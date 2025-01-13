@@ -1,10 +1,22 @@
 import React from 'react'
-import {Chart as ChartJS} from 'chart.js'
-import { Bar } from 'react-chartjs-2'
+
+type SoilInfoProps = {
+  ph: number, 
+  nutrients_levels: number,
+  organinc_matter: number,
+  dranage: number,
+};
+
+const info: SoilInfoProps = {
+  ph: 6.5,
+  nutrients_levels: 4,
+  organinc_matter: 3,
+  dranage: 2,
+}
 
 function SoilInfo() {
   return (
-    <div>SoilInfo</div>
+    <div></div>
   )
 }
 

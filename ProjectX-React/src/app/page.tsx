@@ -3,7 +3,7 @@ import PlantCard from "./ui/PlantInfoCard";
 import PlantGrid from "./ui/PlantGrid";
 import NavBar from "./ui/NavBar";
 
-interface user {
+export interface user {
   name: string;
   img: string;
 }
