@@ -17,7 +17,7 @@ const status_updates: status[] = [
 
 function StatusSection() {
   return (
-    <div className="flex flex-row shadow-neo-dark rounded-xl w-5/6 p-6  ">
+    <div className="card flex flex-row rounded-xl w-5/6 p-6  ">
       <div className="w-1/2">
         <HealthGrid />
       </div>

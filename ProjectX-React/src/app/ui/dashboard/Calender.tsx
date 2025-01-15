@@ -5,7 +5,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 
 function Calender() {
   return (
-    <div className="m-4 p-4 shadow-neo-dark rounded-xl"><FullCalendar
+    <div className="card m-4 p-4 rounded-xl"><FullCalendar
     plugins={[ dayGridPlugin ]}
     initialView="dayGridMonth"/>
 </div>

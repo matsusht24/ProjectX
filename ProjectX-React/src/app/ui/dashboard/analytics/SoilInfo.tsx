@@ -16,7 +16,7 @@ const info: SoilInfoProps = {
 
 function SoilInfo() {
   return (
-    <div></div>
+    <div>   </div>
   )
 }
 

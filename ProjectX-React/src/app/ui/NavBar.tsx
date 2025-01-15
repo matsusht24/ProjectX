@@ -28,7 +28,7 @@ const links: NavItems[] = [
 ];
 function NavBar() {
   return (
-    <div className="relative w-fit h-full p-4">
+    <div className="relative w-fit h-full p-4 pr-8 ">
       <div className="flex flex-col items-center justify-between">
         <div className="flex flex-col items-center gap-4">
           <a href="/">
