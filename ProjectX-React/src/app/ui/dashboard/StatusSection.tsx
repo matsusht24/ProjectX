@@ -21,11 +21,11 @@ function StatusSection() {
       <div className="w-1/2">
         <HealthGrid />
       </div>
-    
+      <div className="h-full w-0.5 shadow-inner"></div>
       <div className="w-1/2 flex flex-col items-center ">
-        <strong className="font-bold text-xl pt-5  ">
+        <h2 className="font-bold text-xl pt-5  ">
           Status Updates
-        </strong>
+        </h2>
         <ul className="max-w-sm w-3/4"> 
             {
                 status_updates.map((status, index) => (

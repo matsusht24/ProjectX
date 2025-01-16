@@ -8,7 +8,7 @@ export interface user {
   img: string;
 }
 
-const user = {
+export const user = {
   name: "Shane",
   img: FaRegUser,
 };
